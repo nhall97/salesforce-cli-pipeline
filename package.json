@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/nhall97/salesforce-cli-pipeline.git",
   "author": "Nathan <62209008+nhall97@users.noreply.github.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@salesforce/cli": "^0.0.38"
+  }
 }
