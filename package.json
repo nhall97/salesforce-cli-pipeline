@@ -8,5 +8,8 @@
   "license": "MIT",
   "dependencies": {
     "@salesforce/cli": "^0.0.38"
+  },
+  "scripts": {
+    "validate-sfdx": "yarn sf"
   }
 }
