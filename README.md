@@ -1,6 +1,6 @@
-# salesforce-cli-pipeline
+#  sf-cli-cloudbuild-pipeline
 Using the new Salesforce CLI (Beta) to expirement with CI/CD pipelines
-
+https://github.com/salesforcecli/cli
 
 ## Yarn
 We're using a yarn workspace to install the new Salesforce CLI.
