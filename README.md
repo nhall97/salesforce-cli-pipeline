@@ -6,3 +6,8 @@ Using the new Salesforce CLI (Beta) to expirement with CI/CD pipelines
 We're using a yarn workspace to install the new Salesforce CLI.
 
 ```yarn add @salesforce/cli```
+
+## Run command
+Yarn is installed locally, so we run our commands with yarn.
+
+```yarn sf```
