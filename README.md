@@ -11,3 +11,8 @@ We're using a yarn workspace to install the new Salesforce CLI.
 Yarn is installed locally, so we run our commands with yarn.
 
 ```yarn sf```
+
+
+## Using monorepo structure
+Deploy the source files in a directory:
+```$sf deploy metadata --source-dir path/to/source```
