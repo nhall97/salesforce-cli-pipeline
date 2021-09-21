@@ -1,5 +1,5 @@
 {
-  "name": "salesforce-cli-pipeline",
+  "name": "sf-cli-pipeline",
   "version": "v0.0.1",
   "description": "Using the new Salesforce CLI (Beta) to expirement with CI/CD pipelines",
   "main": "index.js",
@@ -11,5 +11,6 @@
   },
   "scripts": {
     "validate-sfdx": "yarn sf"
-  }
+  },
+  "private": false
 }
