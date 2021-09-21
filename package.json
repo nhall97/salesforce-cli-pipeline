@@ -9,8 +9,11 @@
   "dependencies": {
     "@salesforce/cli": "^0.0.38"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "validate-sfdx": "yarn sf"
   },
-  "private": false
+  "private": true
 }
