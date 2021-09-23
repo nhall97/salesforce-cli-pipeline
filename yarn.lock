@@ -4475,6 +4475,7 @@ __metadata:
   resolution: "demo-package@workspace:packages/demo-package"
   dependencies:
     "@prettier/plugin-xml": ^0.12.0
+    "@salesforce/cli": ^0.0.38
     "@salesforce/eslint-config-lwc": ^0.11.0
     "@salesforce/eslint-plugin-aura": ^2.0.0
     "@salesforce/sfdx-lwc-jest": ^0.10.4
@@ -5481,6 +5482,7 @@ __metadata:
   resolution: "foobar-package@workspace:packages/foobar-package"
   dependencies:
     "@prettier/plugin-xml": ^0.12.0
+    "@salesforce/cli": ^0.0.38
     "@salesforce/eslint-config-lwc": ^0.11.0
     "@salesforce/eslint-plugin-aura": ^2.0.0
     "@salesforce/sfdx-lwc-jest": ^0.10.4
