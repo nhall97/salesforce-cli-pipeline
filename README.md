@@ -13,6 +13,12 @@ Yarn is installed locally, so we run our commands with yarn.
 ```yarn sf```
 
 
-## Using monorepo structure
+## Using workspace/monorepo structure and sf cli
 Deploy the source files in a directory:
 ```$sf deploy metadata --source-dir path/to/source```
+
+To deploy demo package:
+```$yarn sf deploy metadata --source-dir packages/demo-package```
+
+To deploy foobar package:
+```$yarn sf deploy metadata --source-dir packages/foobar-package```
