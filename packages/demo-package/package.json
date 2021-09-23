@@ -14,7 +14,11 @@
     "test:unit:coverage": "sfdx-lwc-jest --coverage",
     "prettier": "prettier --write \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
     "prettier:verify": "prettier --list-different \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
-    "deploy": "sf deploy"
+    "deploy": "sf deploy",
+    "verify-sf": "sf"
+  },
+  "dependencies": {
+    "@salesforce/cli": "^0.0.38"
   },
   "devDependencies": {
     "@prettier/plugin-xml": "^0.12.0",
