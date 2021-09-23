@@ -12,6 +12,8 @@ Yarn is installed locally, so we run our commands with yarn.
 
 ```yarn sf```
 
+## Enable workspaces
+```yarn plugin import workspace-tools```
 
 ## Using workspace/monorepo structure and sf cli
 Deploy the source files in a directory:
