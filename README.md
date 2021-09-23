@@ -40,3 +40,6 @@ Deploy all packages located in workspace:
 
 ```$yarn workspaces foreach -R run deploy```
 
+
+#### GCP CloudBuild Integration
+Cloudbuild configuration added & trigger added on push to main branch
