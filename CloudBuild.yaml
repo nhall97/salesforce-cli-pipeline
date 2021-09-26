@@ -10,6 +10,9 @@ steps:
   args: ['run','validate-all-sf']
 - name: node
   entrypoint: 'bash'
+  args: ['-c', 'yarn sf']
+- name: node
+  entrypoint: 'bash'
   args: ['-c', 'yarn sf login org jwt -u $$SF_USER_NAME -f $$SF_SERVER_JWT_KEY -i $$SF_CLIENT_ID -l https://login.salesforce.com']
   secretEnv: ['SF_CLIENT_ID', 'SF_SERVER_JWT_KEY', 'SF_USER_NAME']
 availableSecrets:
