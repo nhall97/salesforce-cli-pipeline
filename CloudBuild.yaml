@@ -10,9 +10,6 @@ steps:
   args: ['run','validate-all-sf']
 - name: node
   entrypoint: yarn
-  args: ['workspaces','foreach','-A','run', 'verify-sf']
-- name: node
-  entrypoint: yarn
   args: ['sf login org jwt','-u $$SF_USER_NAME -f $$SF_SERVER_JWT_KEY -i $$SF_CLIENT_ID -l https://login.salesforce.com']
   secretEnv: ['SF_CLIENT_ID', 'SF_SERVER_JWT_KEY', 'SF_USER_NAME']
 availableSecrets:
