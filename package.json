@@ -7,13 +7,17 @@
   "author": "Nathan <62209008+nhall97@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "@salesforce/cli": "^0.0.38"
+    "@salesforce/cli": "^0.0.38",
+    "snyk": "^1.728.0"
   },
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "validate-all-sf": "yarn workspaces foreach -A run verify-sf"
+    "validate-all-sf": "yarn workspaces foreach -A run verify-sf",
+    "snyk:auth": "snyk auth",
+    "snyk:test": "snyk test",
+    "snyk:monitor": "snyk monitor"
   },
   "private": true
 }

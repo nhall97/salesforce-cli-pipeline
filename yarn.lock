@@ -10158,6 +10158,7 @@ resolve@~1.17.0:
   resolution: "sf-cli-pipeline@workspace:."
   dependencies:
     "@salesforce/cli": ^0.0.38
+    snyk: ^1.728.0
   languageName: unknown
   linkType: soft
 
@@ -10330,6 +10331,15 @@ resolve@~1.17.0:
     source-map-resolve: ^0.5.0
     use: ^3.1.0
   checksum: a197f242a8f48b11036563065b2487e9b7068f50a20dd81d9161eca6af422174fc158b8beeadbe59ce5ef172aa5718143312b3aebaae551c124b7824387c8312
+  languageName: node
+  linkType: hard
+
+"snyk@npm:^1.728.0":
+  version: 1.728.0
+  resolution: "snyk@npm:1.728.0"
+  bin:
+    snyk: bin/snyk
+  checksum: 6abddb439c025478f87b6ae6e18d96e4cbfaacc461f8682600e9800d02dc9fff0f24f6fcc388b55ccfaaebb7744571ca243889199291b572449cbc28f5e26410
   languageName: node
   linkType: hard
 
